@@ -10,7 +10,7 @@ def create_contexts_target(corpus, window_size=1):
         for t in range(-window_size, window_size + 1):
             if t == 0:
                 continue
-            print ()
+            print (t)
             cs.append(corpus[idx + t])
         contexts.append(cs)
 
